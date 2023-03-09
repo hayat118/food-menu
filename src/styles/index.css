@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*  */
+
+/*  */
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  max-width: 100%;
+}
+.flex {
+  display: flex;
+}
+
+p {
+  width: 100%;
+  padding: 1rem 0;
+  font-weight: 300;
+}
+h1 {
+  text-align: center;
+  background-color: cadetblue;
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+small {
+  color: cadetblue;
+  border: 1px solid cadetblue;
+  padding: 0.2rem;
+}
+.btn {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  background-color: goldenrod;
+  padding: 1rem 0;
+}
+.allcard {
+  padding: 0.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-card {
+  /* margin-right: 10px; */
+  border: 1px solid black;
+  padding: 10px;
+  background-color: antiquewhite;
+  display: flex;
+  margin-bottom: 10px;
+  width: 350px;
+}
+.menu-details {
+  padding: 0 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+button {
+  margin-right: 1.2rem;
+  background-color: bisque;
+  padding: 5px 10px;
+}
+button:hover {
+  background-color: cadetblue;
+}
+.footer {
+  background-color: cadetblue;
+  text-align: center;
+  padding: 10px 0;
+}
+/*  */
+/*  */
+/*  */
+
+@media screen and (max-width: 767px) {
+  .allcard {
+    padding: 0 5px;
+  }
+  .menu-card {
+    margin-right: 1px;
+    width: 100%;
+  }
+}
